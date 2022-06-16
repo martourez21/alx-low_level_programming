@@ -57,4 +57,3 @@ int main(void)
         }
         return (0);
 }
-julien@ubuntu:~/0x06$
