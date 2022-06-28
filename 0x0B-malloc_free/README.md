@@ -6,14 +6,6 @@ Write a function that creates an array of chars, and initializes it with a speci
     Returns NULL if size = 0
     Returns a pointer to the array, or NULL if it fails
     
-####2) He who is not courageous enough to take risks will accomplish nothing in life ####
-Write a function that concatenates two strings.
-
-    Prototype: char *str_concat(char *s1, char *s2);
-    The returned pointer should point to a newly allocated space in memory which contains the contents of s1, followed by the contents of s2, and null terminated
-    if NULL is passed, treat it as an empty string
-    The function should return NULL on failure
-    
 #### 1) The woman who has no imagination has no wings ####
 Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 
@@ -24,5 +16,11 @@ Write a function that returns a pointer to a newly allocated space in memory, wh
 
 FYI: The standard library provides a similar function: strdup. Run man strdup to learn more.
 
+####2) He who is not courageous enough to take risks will accomplish nothing in life ####
+Write a function that concatenates two strings.
 
+    Prototype: char *str_concat(char *s1, char *s2);
+    The returned pointer should point to a newly allocated space in memory which contains the contents of s1, followed by the contents of s2, and null terminated
+    if NULL is passed, treat it as an empty string
+    The function should return NULL on failure
      
